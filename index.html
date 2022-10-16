@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta
+        http-equiv="X-UA-Compatible"
+        content="IE=edge"
+    />
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    />
+    <title>codedamn Project- Instagram clone</title>
+    <link
+        rel="stylesheet"
+        href="styles.css"
+    >
+</head>
+
+<body>
+    <div class="nav-container">
+        <nav class="nav">
+            <div>
+                <img
+                    src="./assets/images/logo.png"
+                    alt=""
+                >
+            </div>
+            <div class="search-box">
+                <svg
+                    class="search-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 256 256"
+                >
+                    <rect
+                        width="256"
+                        height="256"
+                        fill="none"
+                    ></rect>
+                    <circle
+                        cx="116"
+                        cy="116"
+                        r="84"
+                        fill="none"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="16"
+                    ></circle>
+                    <line
+                        x1="175.4"
+                        y1="175.4"
+                        x2="224"
+                        y2="224"
+                        fill="none"
+                        stroke="#000000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="16"
+                    ></line>
+                </svg>
+                <input
+                    type="text"
+                    placeholder="Search"
+                >
+            </div>
+            <div>
+                <ul class="nav-links">
+                    <li class="nav-link">
+                        <a href="#">
+                            <svg
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 256 256"
+                            >
+                                <rect
+                                    width="256"
+                                    height="256"
+                                    fill="none"
+                                ></rect>
+                                <path
+                                    d="M152,208V160a8,8,0,0,0-8-8H112a8,8,0,0,0-8,8v48a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V115.5a8.3,8.3,0,0,1,2.6-5.9l80-72.7a8,8,0,0,1,10.8,0l80,72.7a8.3,8.3,0,0,1,2.6,5.9V208a8,8,0,0,1-8,8H160A8,8,0,0,1,152,208Z"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-link messenger">
+                        <a href="#">
+                            <svg
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 256 256"
+                            >
+                                <rect
+                                    width="256"
+                                    height="256"
+                                    fill="none"
+                                ></rect>
+                                <path
+                                    d="M45.4,177A95.9,95.9,0,1,1,79,210.6h0L45.8,220a7.9,7.9,0,0,1-9.8-9.8L45.4,177Z"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></path>
+                                <polyline
+                                    points="80 144 112 112 144 144 176 112"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></polyline>
+                            </svg>
+                        </a>
+                        <div class="messages">
+                            <span>3</span>
+                        </div>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <svg
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 256 256"
+                            >
+                                <rect
+                                    width="256"
+                                    height="256"
+                                    fill="none"
+                                ></rect>
+                                <line
+                                    x1="40"
+                                    y1="128"
+                                    x2="216"
+                                    y2="128"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></line>
+                                <line
+                                    x1="128"
+                                    y1="40"
+                                    x2="128"
+                                    y2="216"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></line>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <svg
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 256 256"
+                            >
+                                <rect
+                                    width="256"
+                                    height="256"
+                                    fill="none"
+                                ></rect>
+                                <circle
+                                    cx="128"
+                                    cy="128"
+                                    r="96"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-miterlimit="10"
+                                    stroke-width="16"
+                                ></circle>
+                                <polygon
+                                    points="145 145 173.1 82.8 111 111 85.6 170.4 145 145"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></polygon>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <svg
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 256 256"
+                            >
+                                <rect
+                                    width="256"
+                                    height="256"
+                                    fill="none"
+                                ></rect>
+                                <path
+                                    d="M128,216S28,160,28,92A52,52,0,0,1,128,72h0A52,52,0,0,1,228,92C228,160,128,216,128,216Z"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <!-- <div class=""> -->
+                            <img
+                                id="nav-profile"
+                                class=" nav-user-img"
+                                src="/assets/images/profile1.png"
+                                alt=""
+                            >
+                            <div class="account">
+                                <div class="account-content account-profile"><svg
+                                        class="icon"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 256 256"
+                                    >
+                                        <rect
+                                            width="256"
+                                            height="256"
+                                            fill="none"
+                                        ></rect>
+                                        <circle
+                                            cx="128"
+                                            cy="128"
+                                            r="96"
+                                            fill="none"
+                                            stroke="#000000"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="16"
+                                        ></circle>
+                                        <circle
+                                            cx="128"
+                                            cy="120"
+                                            r="40"
+                                            fill="none"
+                                            stroke="#000000"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="16"
+                                        ></circle>
+                                        <path
+                                            d="M63.8,199.4a72,72,0,0,1,128.4,0"
+                                            fill="none"
+                                            stroke="#000000"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="16"
+                                        ></path>
+                                    </svg> Profile</div>
+                                <div class="account-content">Log Out</div>
+                            </div>
+                            <!-- </div> -->
+
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <main>
+            <div class="stories">
+                <div class="user-img-border">
+                    <img
+                        class="story-img"
+                        src="./assets/images/user6.jpg"
+                        alt=""
+                    >
+                </div>
+                <div class="user-img-border">
+                    <img
+                        class="story-img"
+                        src="./assets/images/user2.jpg"
+                        alt=""
+                    >
+                </div>
+                <div class="user-img-border">
+                    <img
+                        class="story-img"
+                        src="./assets/images/user3.jpg"
+                        alt=""
+                    >
+                </div>
+                <div class="user-img-border">
+                    <img
+                        class="story-img"
+                        src="./assets/images/user4.jpg"
+                        alt=""
+                    >
+                </div>
+                <div class="user-img-border">
+                    <img
+                        class="story-img"
+                        src="./assets/images/user5.jpg"
+                        alt=""
+                    >
+                </div>
+            </div>
+            <div class="posts">
+                <div class="post">
+                    <div class="post-header flex-container">
+
+                        <div class="user-img-border">
+                            <img
+                                class="user-img post-user-img"
+                                src="/assets/images/user6.jpg"
+                                alt=""
+                            >
+                        </div>
+                        <span>username</span>
+                        <!-- insert button here -->
+                        <button class="post-header-btn">
+                            <span class="dots">
+                                &hellip;
+                            </span>
+                        </button>
+                    </div>
+                    <div class="post-img">
+                        <img
+                            src="/assets/images/post1.jpg"
+                            alt=""
+                        >
+                    </div>
+
+                    <div class="post-icons">
+                        <!-- icons -->
+                        <div class="post-icons-left">
+                            <svg
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 256 256"
+                            >
+                                <rect
+                                    width="256"
+                                    height="256"
+                                    fill="none"
+                                ></rect>
+                                <path
+                                    d="M128,216S28,160,28,92A52,52,0,0,1,128,72h0A52,52,0,0,1,228,92C228,160,128,216,128,216Z"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></path>
+                            </svg>
+                            <svg
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 256 256"
+                            >
+                                <rect
+                                    width="256"
+                                    height="256"
+                                    fill="none"
+                                ></rect>
+                                <path
+                                    d="M132,216H47.7a7.6,7.6,0,0,1-7.7-7.7V124a92,92,0,0,1,92-92h0a92,92,0,0,1,92,92h0A92,92,0,0,1,132,216Z"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></path>
+                            </svg>
+                            <svg
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 256 256"
+                            >
+                                <rect
+                                    width="256"
+                                    height="256"
+                                    fill="none"
+                                ></rect>
+                                <path
+                                    d="M210.3,35.9,23.9,88.4a8,8,0,0,0-1.2,15l85.6,40.5a7.8,7.8,0,0,1,3.8,3.8l40.5,85.6a8,8,0,0,0,15-1.2L220.1,45.7A7.9,7.9,0,0,0,210.3,35.9Z"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></path>
+                                <line
+                                    x1="110.9"
+                                    y1="145.1"
+                                    x2="156.1"
+                                    y2="99.9"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></line>
+                            </svg>
+                        </div>
+                        <svg
+                            class="icon"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 256 256"
+                        >
+                            <rect
+                                width="256"
+                                height="256"
+                                fill="none"
+                            ></rect>
+                            <path
+                                d="M192,224l-64-40L64,224V48a8,8,0,0,1,8-8H184a8,8,0,0,1,8,8Z"
+                                fill="none"
+                                stroke="#000000"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="16"
+                            ></path>
+                        </svg>
+                    </div>
+                    <div class="post-content-box">
+                        <p class="likes">999 likes</p>
+                        <p class="caption-user">username <span class="caption">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Ducimus aliquam molestias tenetur saepe sint voluptatem veritatis
+                                officiis
+                                minus pariatur, id nisi nam distinctio dolor reprehenderit odio ipsum ea obcaecati, at
+                                velit, enim fugiat nobis!</span></p>
+                        <p class="comments">View all 67 comments</p>
+                    </div>
+                    <div class="new-comment flex-container">
+                        <div class="comment-box flex-container">
+                            <svg
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 256 256"
+                            >
+                                <rect
+                                    width="256"
+                                    height="256"
+                                    fill="none"
+                                ></rect>
+                                <circle
+                                    cx="128"
+                                    cy="128"
+                                    r="96"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></circle>
+                                <circle
+                                    cx="92"
+                                    cy="108"
+                                    r="12"
+                                ></circle>
+                                <circle
+                                    cx="164"
+                                    cy="108"
+                                    r="12"
+                                ></circle>
+                                <path
+                                    d="M169.6,152a48.1,48.1,0,0,1-83.2,0"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></path>
+                            </svg>
+                            <input
+                                class="comment-input"
+                                type="text"
+                                placeholder="Add a comment..."
+                            >
+                        </div>
+                        <button class="btn">Post</button>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post-header flex-container">
+
+                        <div class="user-img-border">
+                            <img
+                                class="user-img post-user-img"
+                                src="/assets/images/user2.jpg"
+                                alt=""
+                            >
+                        </div>
+                        <span>username</span>
+                        <!-- insert button here -->
+                        <button class="post-header-btn">
+                            <span class="dots">
+                                &hellip;
+                            </span>
+                        </button>
+                    </div>
+                    <div class="post-img">
+                        <img
+                            src="/assets/images/post2.jpg"
+                            alt=""
+                        >
+                    </div>
+
+                    <div class="post-icons">
+                        <!-- icons -->
+                        <div class="post-icons-left">
+                            <svg
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 256 256"
+                            >
+                                <rect
+                                    width="256"
+                                    height="256"
+                                    fill="none"
+                                ></rect>
+                                <path
+                                    d="M128,216S28,160,28,92A52,52,0,0,1,128,72h0A52,52,0,0,1,228,92C228,160,128,216,128,216Z"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></path>
+                            </svg>
+                            <svg
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 256 256"
+                            >
+                                <rect
+                                    width="256"
+                                    height="256"
+                                    fill="none"
+                                ></rect>
+                                <path
+                                    d="M132,216H47.7a7.6,7.6,0,0,1-7.7-7.7V124a92,92,0,0,1,92-92h0a92,92,0,0,1,92,92h0A92,92,0,0,1,132,216Z"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></path>
+                            </svg>
+                            <svg
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 256 256"
+                            >
+                                <rect
+                                    width="256"
+                                    height="256"
+                                    fill="none"
+                                ></rect>
+                                <path
+                                    d="M210.3,35.9,23.9,88.4a8,8,0,0,0-1.2,15l85.6,40.5a7.8,7.8,0,0,1,3.8,3.8l40.5,85.6a8,8,0,0,0,15-1.2L220.1,45.7A7.9,7.9,0,0,0,210.3,35.9Z"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></path>
+                                <line
+                                    x1="110.9"
+                                    y1="145.1"
+                                    x2="156.1"
+                                    y2="99.9"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></line>
+                            </svg>
+                        </div>
+                        <svg
+                            class="icon"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 256 256"
+                        >
+                            <rect
+                                width="256"
+                                height="256"
+                                fill="none"
+                            ></rect>
+                            <path
+                                d="M192,224l-64-40L64,224V48a8,8,0,0,1,8-8H184a8,8,0,0,1,8,8Z"
+                                fill="none"
+                                stroke="#000000"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="16"
+                            ></path>
+                        </svg>
+                    </div>
+                    <div class="post-content-box">
+                        <p class="likes">999 likes</p>
+                        <p class="caption-user">username <span class="caption">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Ducimus aliquam molestias tenetur saepe sint voluptatem veritatis
+                                officiis
+                                minus pariatur, id nisi nam distinctio dolor reprehenderit odio ipsum ea obcaecati, at
+                                velit, enim fugiat nobis!</span></p>
+                        <p class="comments">View all 67 comments</p>
+                    </div>
+                    <div class="new-comment flex-container">
+                        <div class="comment-box flex-container">
+                            <svg
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 256 256"
+                            >
+                                <rect
+                                    width="256"
+                                    height="256"
+                                    fill="none"
+                                ></rect>
+                                <circle
+                                    cx="128"
+                                    cy="128"
+                                    r="96"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></circle>
+                                <circle
+                                    cx="92"
+                                    cy="108"
+                                    r="12"
+                                ></circle>
+                                <circle
+                                    cx="164"
+                                    cy="108"
+                                    r="12"
+                                ></circle>
+                                <path
+                                    d="M169.6,152a48.1,48.1,0,0,1-83.2,0"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></path>
+                            </svg>
+                            <input
+                                class="comment-input"
+                                type="text"
+                                placeholder="Add a comment..."
+                            >
+                        </div>
+                        <button class="btn">Post</button>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post-header flex-container">
+
+                        <div class="user-img-border">
+                            <img
+                                class="user-img post-user-img"
+                                src="/assets/images/user3.jpg"
+                                alt=""
+                            >
+                        </div>
+                        <span>username</span>
+                        <!-- insert button here -->
+                        <button class="post-header-btn">
+                            <span class="dots">
+                                &hellip;
+                            </span>
+                        </button>
+                    </div>
+                    <div class="post-img">
+                        <img
+                        src="/assets/images/post3.jpg"
+                        alt=""
+                        >
+                    </div>
+
+                    <div class="post-icons">
+                        <!-- icons -->
+                        <div class="post-icons-left">
+                            <svg
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 256 256"
+                            >
+                                <rect
+                                    width="256"
+                                    height="256"
+                                    fill="none"
+                                ></rect>
+                                <path
+                                    d="M128,216S28,160,28,92A52,52,0,0,1,128,72h0A52,52,0,0,1,228,92C228,160,128,216,128,216Z"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></path>
+                            </svg>
+                            <svg
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 256 256"
+                            >
+                                <rect
+                                    width="256"
+                                    height="256"
+                                    fill="none"
+                                ></rect>
+                                <path
+                                    d="M132,216H47.7a7.6,7.6,0,0,1-7.7-7.7V124a92,92,0,0,1,92-92h0a92,92,0,0,1,92,92h0A92,92,0,0,1,132,216Z"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></path>
+                            </svg>
+                            <svg
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 256 256"
+                            >
+                                <rect
+                                    width="256"
+                                    height="256"
+                                    fill="none"
+                                ></rect>
+                                <path
+                                    d="M210.3,35.9,23.9,88.4a8,8,0,0,0-1.2,15l85.6,40.5a7.8,7.8,0,0,1,3.8,3.8l40.5,85.6a8,8,0,0,0,15-1.2L220.1,45.7A7.9,7.9,0,0,0,210.3,35.9Z"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></path>
+                                <line
+                                    x1="110.9"
+                                    y1="145.1"
+                                    x2="156.1"
+                                    y2="99.9"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></line>
+                            </svg>
+                        </div>
+                        <svg
+                            class="icon"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 256 256"
+                        >
+                            <rect
+                                width="256"
+                                height="256"
+                                fill="none"
+                            ></rect>
+                            <path
+                                d="M192,224l-64-40L64,224V48a8,8,0,0,1,8-8H184a8,8,0,0,1,8,8Z"
+                                fill="none"
+                                stroke="#000000"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="16"
+                            ></path>
+                        </svg>
+                    </div>
+                    <div class="post-content-box">
+                        <p class="likes">999 likes</p>
+                        <p class="caption-user">username <span class="caption">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Ducimus aliquam molestias tenetur saepe sint voluptatem veritatis
+                                officiis
+                                minus pariatur, id nisi nam distinctio dolor reprehenderit odio ipsum ea obcaecati, at
+                                velit, enim fugiat nobis!</span></p>
+                        <p class="comments">View all 67 comments</p>
+                    </div>
+                    <div class="new-comment flex-container">
+                        <div class="comment-box flex-container">
+                            <svg
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 256 256"
+                            >
+                                <rect
+                                    width="256"
+                                    height="256"
+                                    fill="none"
+                                ></rect>
+                                <circle
+                                    cx="128"
+                                    cy="128"
+                                    r="96"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></circle>
+                                <circle
+                                    cx="92"
+                                    cy="108"
+                                    r="12"
+                                ></circle>
+                                <circle
+                                    cx="164"
+                                    cy="108"
+                                    r="12"
+                                ></circle>
+                                <path
+                                    d="M169.6,152a48.1,48.1,0,0,1-83.2,0"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></path>
+                            </svg>
+                            <input
+                                class="comment-input"
+                                type="text"
+                                placeholder="Add a comment..."
+                            >
+                        </div>
+                        <button class="btn">Post</button>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post-header flex-container">
+
+                        <div class="user-img-border">
+                            <img
+                                class="user-img post-user-img"
+                                src="/assets/images/user6.jpg"
+                                alt=""
+                            >
+                        </div>
+                        <span>username</span>
+                        <!-- insert button here -->
+                        <button class="post-header-btn">
+                            <span class="dots">
+                                &hellip;
+                            </span>
+                        </button>
+                    </div>
+                    <img
+                        class="post-img"
+                        src="/assets/images/post5.jpg"
+                        alt=""
+                    >
+
+                    <div class="post-icons">
+                        <!-- icons -->
+                        <div class="post-icons-left">
+                            <svg
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 256 256"
+                            >
+                                <rect
+                                    width="256"
+                                    height="256"
+                                    fill="none"
+                                ></rect>
+                                <path
+                                    d="M128,216S28,160,28,92A52,52,0,0,1,128,72h0A52,52,0,0,1,228,92C228,160,128,216,128,216Z"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></path>
+                            </svg>
+                            <svg
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 256 256"
+                            >
+                                <rect
+                                    width="256"
+                                    height="256"
+                                    fill="none"
+                                ></rect>
+                                <path
+                                    d="M132,216H47.7a7.6,7.6,0,0,1-7.7-7.7V124a92,92,0,0,1,92-92h0a92,92,0,0,1,92,92h0A92,92,0,0,1,132,216Z"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></path>
+                            </svg>
+                            <svg
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 256 256"
+                            >
+                                <rect
+                                    width="256"
+                                    height="256"
+                                    fill="none"
+                                ></rect>
+                                <path
+                                    d="M210.3,35.9,23.9,88.4a8,8,0,0,0-1.2,15l85.6,40.5a7.8,7.8,0,0,1,3.8,3.8l40.5,85.6a8,8,0,0,0,15-1.2L220.1,45.7A7.9,7.9,0,0,0,210.3,35.9Z"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></path>
+                                <line
+                                    x1="110.9"
+                                    y1="145.1"
+                                    x2="156.1"
+                                    y2="99.9"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></line>
+                            </svg>
+                        </div>
+                        <svg
+                            class="icon"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 256 256"
+                        >
+                            <rect
+                                width="256"
+                                height="256"
+                                fill="none"
+                            ></rect>
+                            <path
+                                d="M192,224l-64-40L64,224V48a8,8,0,0,1,8-8H184a8,8,0,0,1,8,8Z"
+                                fill="none"
+                                stroke="#000000"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="16"
+                            ></path>
+                        </svg>
+                    </div>
+                    <div class="post-content-box">
+                        <p class="likes">999 likes</p>
+                        <p class="caption-user">username <span class="caption">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Ducimus aliquam molestias tenetur saepe sint voluptatem veritatis
+                                officiis
+                                minus pariatur, id nisi nam distinctio dolor reprehenderit odio ipsum ea obcaecati, at
+                                velit, enim fugiat nobis!</span></p>
+                        <p class="comments">View all 67 comments</p>
+                    </div>
+                    <div class="new-comment flex-container">
+                        <div class="comment-box flex-container">
+                            <svg
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 256 256"
+                            >
+                                <rect
+                                    width="256"
+                                    height="256"
+                                    fill="none"
+                                ></rect>
+                                <circle
+                                    cx="128"
+                                    cy="128"
+                                    r="96"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></circle>
+                                <circle
+                                    cx="92"
+                                    cy="108"
+                                    r="12"
+                                ></circle>
+                                <circle
+                                    cx="164"
+                                    cy="108"
+                                    r="12"
+                                ></circle>
+                                <path
+                                    d="M169.6,152a48.1,48.1,0,0,1-83.2,0"
+                                    fill="none"
+                                    stroke="#000000"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="16"
+                                ></path>
+                            </svg>
+                            <input
+                                class="comment-input"
+                                type="text"
+                                placeholder="Add a comment..."
+                            >
+                        </div>
+                        <button class="btn">Post</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="sidebar">
+            <div class="user flex-container">
+                <img
+                    class="user-img"
+                    src="/assets/images/profile1.png"
+                    alt=""
+                >
+                <div class="user-detail">
+                    <span class="username">username</span>
+                    <span class="user-name">User Name</span>
+                </div>
+                <button class="btn">Switch</button>
+            </div>
+
+            <div class="flex-container">
+                <p class="suggestion-head">Suggestions For You</p>
+                <button class="btn">See All</button>
+            </div>
+            <div class="suggestions">
+                <div class="suggestion flex-container">
+                    <img
+                        class="user-img"
+                        src="/assets/images/user1.jpg"
+                        alt=""
+                    >
+                    <div class="user-detail">
+                        <span class="username">james</span>
+                        <span class="user-name">Suggested for you</span>
+                    </div>
+                    <button class="btn">Follow</button>
+                </div>
+                <div class="suggestion flex-container">
+                    <img
+                        class="user-img"
+                        src="/assets/images/user2.jpg"
+                        alt=""
+                    >
+                    <div class="user-detail">
+                        <span class="username">harry</span>
+                        <span class="user-name">Follows You</span>
+                    </div>
+                    <button class="btn">Follow</button>
+                </div>
+                <div class="suggestion flex-container">
+                    <img
+                        class="user-img"
+                        src="/assets/images/user6.jpg"
+                        alt=""
+                    >
+                    <div class="user-detail">
+                        <span class="username">Nancy</span>
+                        <span class="user-name">Suggested for you</span>
+                    </div>
+                    <button class="btn">Follow</button>
+                </div>
+                <div class="suggestion flex-container">
+                    <img
+                        class="user-img"
+                        src="/assets/images/user5.jpg"
+                        alt=""
+                    >
+                    <div class="user-detail">
+                        <span class="username">Claire</span>
+                        <span class="user-name">Follows You</span>
+                    </div>
+                    <button class="btn">Follow</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="javscript.js"></script>
+</body>
+
+</html>
